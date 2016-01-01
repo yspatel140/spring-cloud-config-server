@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yspatel140/config-repo
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: yogesh
+    password: yogesh
